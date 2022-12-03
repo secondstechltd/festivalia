@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.f-size-xlrg {
+  font-size: 3.5rem;
+}
+
+.mg-1 {
+  margin: 2rem 0;
+}
+
+.msg-wrappers {
+  padding: 2rem 0 1rem;
+}
+
+.msg-wrappers .error-msg-wrapper p {
+  color: red;
+}
+
+.msg-wrappers .success-msg-wrapper p {
+  color: #0cc40c;
+}
+
+.f-size-med {
+  font-size: 2rem;
+}
+
+.f-text-color-white {
+  color: #fff;
+}
+
+.navbar-brand {
+  padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main#landing-page section#about {
+  background: #101010;
+  padding: 5rem 3rem;
+}
+
+main#landing-page section#activities {
+  background: #101010;
+}
+
+main#landing-page section#Gallery {
+  background: #101010;
+}
+
+main#tickets .main-content .section-wrapper {
+  background: #101010;
+  padding: 3rem 5rem;
+}
+
+main#tickets .main-content .section-wrapper .w-layout-grid {
+  padding: 3rem 0;
+}
+/*# sourceMappingURL=main.css.map */

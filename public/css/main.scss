@@ -1,0 +1,90 @@
+// @import "config";
+// ---------------- nav bar styling
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  // font-family: karla;
+  // color: $base-color-2;
+  // @include easeOut();
+}
+
+$base-color: #000;
+$base-color-2: #fff;
+
+.center-align {
+  text-align: center;
+}
+
+.f-size-xlrg {
+  font-size: 3.5rem;
+}
+
+.mg-1 {
+  margin: 2rem 0;
+}
+
+.msg-wrappers {
+  padding: 2rem 0 1rem;
+  .error-msg-wrapper {
+    p {
+      color: red;
+    }
+  }
+  .success-msg-wrapper {
+    p {
+      color: #0cc40c;
+    }
+  }
+}
+
+.f-size-med {
+  font-size: 2rem;
+}
+
+.f-text-color-white {
+  color: $base-color-2;
+}
+
+.navbar-brand {
+  padding: 0.5rem 0;
+  img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+  }
+}
+
+main {
+  &#landing-page {
+    section {
+      &#about {
+        background: #101010;
+        padding: 5rem 3rem;
+      }
+      &#activities {
+        background: #101010;
+      }
+      &#Gallery {
+        background: #101010;
+      }
+      // &#footer {
+      //   background: #000;
+      //   padding: 2rem 5rem;
+      // }
+    }
+  }
+  &#tickets {
+    .main-content {
+      .section-wrapper {
+        background: #101010;
+        padding: 3rem 5rem;
+        .w-layout-grid {
+          padding: 3rem 0;
+        }
+      }
+    }
+  }
+}
